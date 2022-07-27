@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./assets/Norse-Bold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-family: "PT Sans";
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero {
+    width: 50%;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+}
+
+.hero .strip {
+    margin-top: 30%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    width: 8rem;
+    opacity: 1.0;
+}
+
+.hero .strip div {
+    font-family: "Norse Bold";
+    color: white;
+    font-size: 6rem;
+}
+
+.main {
+    background-color: rgb(250, 250, 251);
+}
+
+.main .text {
+    padding: 3rem 2rem;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.main .text p {
+    margin-bottom: 1rem;
+}
+
+form {
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 .25rem .25rem lightgray;
+}
+
+form p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.form-item {
+    width: 33%;
+    margin-right: 3rem;
+}
+
+.form-item label {
+    display: block;
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: gray;
+}
+
+.form-item input {
+    font-size: 1rem;
+    width: 80%;
+    padding: .5rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 0.25rem;
+}
+
+.form-item input:focus {
+    box-shadow: 0.25rem 0.25rem 0.25rem lightgray ;
+    outline: none;
+    border: 1px solid lightblue;
+}
+
+.log-in-text {
+    font-size: 1.25rem;
+    margin: 1.5rem 2rem;
+}
+
+.log-in-text a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: #596D48;
+    padding: 0.5rem 3rem;
+    border-radius: .25rem;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem lightgray ;
+}
+
+button:hover {
+    background-color: #738b5e;
+}
+
+button:active {
+    box-shadow: none;
+    background-color: #324324;
+}
+
+input.error {
+    border: 1px solid rgb(170, 51, 51);
+}

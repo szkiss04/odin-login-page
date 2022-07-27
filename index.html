@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="strip">
+                <img id="logo" src="./assets/logo.png">
+                <div>Odin</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="text">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+            <form action="#" method="GET" id="register">
+                <p>Let's do this!</p>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="firstname">First name</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="lastname">Last name</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-item">
+                        <label>Phone number</label>
+                        <input type="tel">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="error" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="pwdconfirm">Confirm password</label>
+                        <input type="password" id="pwdconfirm" class="error" required>
+                    </div>
+                </div>
+                
+            </form>
+            <button type="submit" form="register">Create Account</button>
+            <div class="log-in-text">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </body>
+</html>
