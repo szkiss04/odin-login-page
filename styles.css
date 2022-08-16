@@ -132,6 +132,14 @@ button:active {
     background-color: #324324;
 }
 
-input.error {
-    border: 1px solid rgb(170, 51, 51);
+input:invalid {
+    border: 1px solid darkred;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.asterisk {
+    color: darkred;
 }
